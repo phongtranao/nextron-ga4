@@ -1,8 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
-import { v4 as uuidv4 } from 'uuid';
-import ua from 'universal-analytics';
 
 function Next() {
     const measurement_id = `G-CLHX8VZFZ3`;
@@ -15,20 +13,20 @@ function Next() {
     });
 
 
-    // fetch(`https://www.google-analytics.com/mp/collect?measurement_id=${measurement_id}&api_secret=${api_secret}`, {
-    //     method: "POST",
-    //     body: JSON.stringify({
-    //         client_id: uuidv4(),
-    //         "events": [{
-    //             "name": "childhood",
-    //             "params": {
-    //                 "currency": "USD",
-    //                 "value": "9.99",
-    //                 "transaction_id": "ABC-123"
-    //             }
-    //         }]
-    //     })
-    // });
+    fetch(`https://www.google-analytics.com/mp/collect?measurement_id=${measurement_id}&api_secret=${api_secret}`, {
+        method: "POST",
+        body: JSON.stringify({
+            "client_id": "c260504c-b55d-4092-beb9-ecbe2169b235",
+            "events": [{
+                "name": "childhood",
+                "params": {
+                    "currency": "USD",
+                    "value": "9.99",
+                    "transaction_id": "ABC-123"
+                }
+            }]
+        })
+    });
   return (
     <React.Fragment>
       <Head>
