@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "my-nextron-app",
-  "description": "Electron NextJs Tailwindcss with Google Analytics GA4 integration",
+  "description": "Basic Example- Electron NextJs Tailwindcss with Google Analytics GA4 integration",
   "version": "1.0.0",
   "author": "Phong Tran <phongtranao@gmail.com>",
   "main": "app/background.js",

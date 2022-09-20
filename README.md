@@ -1,6 +1,22 @@
 <p align="center"><img src="https://i.imgur.com/a9QWW0v.png"></p>
 
-## Usage
+### Usage
+
+Electron NextJs TailwindCss with Google Universal Analytics (GA4) Integration.
+
+See more lists all of the parameters for the Measurement Protocol: https://developers.google.com/analytics/devguides/collection/protocol/v1/parameters
+
+### Notes
+
+Following parameters need to be dynamic change on each client:
+
+- tid: Tracking ID/ Web Property ID
+- cid: Client ID
+- dl: Document Location
+- dt: Document Title
+- ul: User Language
+
+and more based on what do you need. 
 
 ### Create an App
 
