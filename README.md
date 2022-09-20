@@ -8,6 +8,8 @@ See more lists all of the parameters for the Measurement Protocol: https://devel
 
 ### Notes
 
+Basic example on files: home.tsx, next.tsx.
+
 Following parameters need to be dynamic change on each client:
 
 - tid: Tracking ID/ Web Property ID
